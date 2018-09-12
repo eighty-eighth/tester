@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Circe"),
+    url("../fonts/circe.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Circe"),
+    url("../fonts/circe-bold.woff") format("woff");
+}
+
+body {
+  min-width: 320px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Circe", "Tahoma", sans-serif;
+  color: darkslategrey;
+  background-color: blueviolet;
+}
+
+.hello {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  border: 1px solid red;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+}
